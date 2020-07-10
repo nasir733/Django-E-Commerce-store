@@ -108,8 +108,8 @@ def checkout(request):
         update.save()
         thank = True
         id = order.order_id
-        # return render(request, 'shop/checkout.html', {'thank':thank, 'id': id})
-        # Request paytm to transfer the amount to your account after payment by user
+        return render(request, 'shop/checkout.html', {'thank':thank, 'id': id})
+        
         param_dict = {
 
                 'MID': 'Your-Merchant-Id-Here',
