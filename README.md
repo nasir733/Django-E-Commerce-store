@@ -8,4 +8,4 @@ cd venv/scripts/activate
 pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver 
-the app is live on your ocal server
+the app is live on your local server
